@@ -1,0 +1,19 @@
+{
+  "name": "lamivudine",
+  "version": "1.0.0",
+  "description": "A utility for managing Cumcord plugins without any Discord internals.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Cumcord/Lamivudine.git"
+  },
+  "author": "creatable",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Cumcord/Lamivudine/issues"
+  },
+  "homepage": "https://github.com/Cumcord/Lamivudine#readme"
+}
