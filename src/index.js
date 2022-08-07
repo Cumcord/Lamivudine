@@ -7,7 +7,7 @@
 
   document.getElementById("app-mount").remove();
 
-  const styles = `#lamivudine{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;font-family:var(--font-primary);color:white}#lamivudine-header{font-size:45px;font-weight:bold}#lamivudine-subheader{font-size:20px;font-weight:bold;color:white;margin-bottom:10px;}.lamivudine-txt{text-align:center}#lamivudine-plugin-container{overflow-y:auto;display:flex;flex-direction:column;gap:8px}.lamivudine-plugin{text-align:center;padding:10px;border-radius:0.375rem;background-color:var(--background-secondary)}.lamivudine-button{background:var(--button-secondary-background);color:white;border-radius:2px;font-weight:bold}.lamivudine-danger{background:var(--button-danger-background)}.lamivudine-edit{display:block;width:calc(100% - .5rem);background:#222;color:white;height:10rem}`;
+  const styles = `#lamivudine{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;font-family:var(--font-primary);color:#fff;z-index:69420}#lamivudine-header{font-size:45px;font-weight:700}#lamivudine-subheader{font-size:20px;font-weight:700;color:#fff;margin-bottom:10px}.lamivudine-txt{text-align:center}#lamivudine-plugin-container{overflow-y:auto;display:flex;flex-direction:column;gap:8px}.lamivudine-plugin{text-align:center;padding:10px;border-radius:.375rem;background-color:var(--background-secondary)}.lamivudine-button{background:var(--button-secondary-background);color:#fff;border-radius:2px;font-weight:700}.lamivudine-danger{background:var(--button-danger-background)}.lamivudine-edit{display:block;width:calc(100% - .5rem);background:#222;color:#fff;height:10rem}`;
 
   const lamivudineContainer = makeElem(`
       <div id="lamivudine">
